@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2_Layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrapper {
+            width: 800px;
+            height: auto;
+            background: #aaa;
+            margin: 0 auto;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        header {
+            width: 780px;
+            height: 120px;
+            background: #ccc;
+
+        }
+
+        main {
+            width: 100%;
+            height: auto;
+            background: #ccc;
+            margin: 10px 0;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+
+        main>section {
+            width: 100%;
+            height: 200px;
+            margin-top: 10px;
+            background: #eee;
+        }
+
+        footer {
+            width: 100%;
+            height: 100px;
+            background: #ccc;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <header>Header</header>
+        <main>Main
+            <section>section #1</section>
+            <section>section #2</section>
+        </main>
+        <footer>Footer</footer>
+    </div>
+</body>
+</html>
