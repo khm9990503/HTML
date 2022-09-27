@@ -10,8 +10,6 @@ a {text-decoration: none; color: #111;}
 #wrapper {
     width: 100%;
     height: auto;
-    border: 1px solid red;
-    box-sizing: border-box;
 }
 header {
     width: 100%;
