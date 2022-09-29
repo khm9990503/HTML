@@ -26,7 +26,7 @@
                             <th>첨부파일</th>
                             <td>
                                 <a href="#">2020년 상반기 매출자료.xls</a>
-                                <span>7회 다운로드</span>
+                                <span>7</span>회 다운로드
                             </td>
                         </tr>
                         <tr>
@@ -37,20 +37,20 @@
                         </tr>
                     </table>
                     <div>
-                        <a href="#" class="btnDelete">삭제</a>
-                        <a href="./modify.html" class="btnModify">수정</a>
-                        <a href="./list.html" class="btnList">목록</a>
+                        <a href="#" class="btn btnDelete">삭제</a>
+                        <a href="./modify.html" class="btn btnModify">수정</a>
+                        <a href="./list.html" class="btn btnList">목록</a>
                     </div>
                 </form>
             </section>
             <section class="commentList">
                 <h3>댓글목록</h3>
                 <article class="comment">
-                    <span>길동이 20-05-13</span>
+                    <span class="nick">길동이</span>&nbsp;<span class="date">20-05-13</span>
                     <textarea name="comment" readonly>댓글 샘플입니다.</textarea>
                     <div>
-                        <a href="#">삭제</a>
-                        <a href="#">수정</a>
+                        <a href="#" class="delete">삭제</a>
+                        <a href="#" class="modify">수정</a>
                     </div>
                 </article>
                 <p class="empty">등록된 댓글이 없습니다.</p>
@@ -58,10 +58,10 @@
             <section class="commentForm">
                 <h3>댓글쓰기</h3>
                 <form action="#">
-                    <textarea name="comment"></textarea>
+                    <textarea name="comment" placeholder="댓글내용 입력"></textarea>
                     <div>
-                        <a href="#" class="btnCancel">취소</a>
-                        <input type="submit" class="btnWrite" value="작성완료">
+                        <a href="#" class="btn btnCancel">취소</a>
+                        <input type="submit" class="btn btnComplete" value="작성완료">
                     </div>
                 </form>
             </section>
