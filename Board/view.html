@@ -2,81 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>view</title>
+    <title>글보기</title>
     <link rel="stylesheet" href="./css/style.css">
-    <style>
-        #board.view table tr > th {
-            width: 100px;
-            background: #f5f8f9;
-            text-align: center;
-        }
-        #board.view table tr > td {
-            padding: 12px 6px;
-            border-top: 1px solid #e9e9e9;
-            border-bottom: 1px solid #e9e9e9;
-        }
-        #board.view table tr > td > input {
-            width: 100%;
-            height: 24px;
-            border: 0;
-        }
-        #board.view table tr > td > textarea {
-            width: 100%;
-            height: 280px;
-            resize: none;
-            border: 0;
-        }
-
-        #board.view section:nth-of-type(1) div {
-            padding: 16px 0;
-            text-align: right;
-        }
-
-        #board .btnDelete {
-            padding: 8px;
-            border: 1px solid #bebebe;
-            background: #fdfdfd;
-            color: #111;}
-        #board .btnModify {
-            padding: 8px;
-            border: 1px solid #bebebe;
-            background: #fdfdfd;
-            color: #111;
-        }
-        #board .btnList {
-            padding: 8px;
-            border: 1px solid #bebebe;
-            background: #fdfdfd;
-            color: #111;
-        }
-
-        #board.view section h3 {font-weight: bold;}
-
-        #board.view > .commentList,.commentForm {
-            padding: 20px;
-            border: 1px solid #e3e3e3;
-            background: #f9f9f9;
-            margin-bottom: 16px;
-        }
-
-        #board.view > .commentList > article {
-            border-top: 1px dotted #999;
-            margin-top: 10px;
-            padding-top: 10px;
-        }
-
-        #board.view > .commentList > article > textarea {
-            width: 100%;
-            height: 60px;
-            padding: 6px;
-            box-sizing: border-box;
-            resize: none;
-            border: 0;
-            background: transparent;
-        }
-
-        
-    </style>
 </head>
 <body>
     <div id="wrapper">
@@ -93,7 +20,7 @@
                     <table>
                         <tr>
                             <th>제목</th>
-                            <td><input type="text" name="title" placeholder="제목입니다." readonly></td>
+                            <td><input type="text" name="title" value="제목입니다." readonly></td>
                         </tr>
                         <tr>
                             <th>첨부파일</th>
@@ -111,7 +38,7 @@
                     </table>
                     <div>
                         <a href="#" class="btnDelete">삭제</a>
-                        <a href="#" class="btnModify">수정</a>
+                        <a href="./modify.html" class="btnModify">수정</a>
                         <a href="./list.html" class="btnList">목록</a>
                     </div>
                 </form>
@@ -130,7 +57,7 @@
             </section>
             <section class="commentForm">
                 <h3>댓글쓰기</h3>
-                <form action="">
+                <form action="#">
                     <textarea name="comment"></textarea>
                     <div>
                         <a href="#" class="btnCancel">취소</a>
