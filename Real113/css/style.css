@@ -228,6 +228,7 @@ main .qna > table tr {}
 main .qna > table tr > td {color: #6a6a6a;}
 main .qna > table tr > td:nth-of-type(1) {}
 main .qna > table tr > td:nth-of-type(2) > a {color: inherit;}
+main .qna > table tr > td:nth-of-type(2) > a:hover {text-decoration: underline;}
 main .qna > table tr > td:nth-of-type(2) {
     display: inline-block;
     width: 219px;
@@ -355,6 +356,9 @@ main > section > article > ul .thumb {
 main > section > article > ul > li > a {
     display: inline-block;
     text-align: center;
+}
+main > section > article > ul > li > a:hover {
+    text-decoration: underline;
 }
 
 
