@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font: normal 12px 'noto sans korea';
+}
+ul,ol{list-style: none;}
+a{text-decoration: none; color: #111;}
+
+#wrapper{
+    width: 100%;
+    height: 100%;
+    
+}
+header{
+    width: 100%;
+    height: auto;
+    
+}
+header>div{
+    width: 100%;
+    
+}
+header>div:nth-child(1){height: 36px;}
+header>div:nth-child(2){height: 100px;}
+header>div:nth-child(3){height: 54px; background: #40382e;}
+header>div>div{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+header>div>article{
+    position: relative;
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+header>div>nav{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    
+}
+main>section{
+    width: 100%;
+    height: auto;
+    
+}
+main>.slider{
+    background-color: #fdecd0;
+    height: 352px;
+}
+main>.go{
+    height: 520px;
+}
+main>.go>article{
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+main>.go>article>div{
+    float: left;
+    box-sizing: border-box;
+}
+main>.go>article>div:nth-child(1){
+    width: 412px;
+    height: 450px;
+}
+main>.go>article>div:nth-child(2){
+    width: 322px;
+    height: 220px;
+    margin-left: 11px;
+}
+main>.go>article>div:nth-child(3){
+    float: right;
+    width: 322px;
+    height: 220px;
+}
+main>.go>article>div:nth-child(4){
+    width: 322px;
+    height: 220px;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+main>.go>article>div:nth-child(5){
+    float: right;
+    width: 322px;
+    height: 220px;
+    margin-top: 10px;
+}
+main>.oneday{
+    height: 190px;
+    background-image: url(../img/oneday_bg.png);
+    background-size: cover;
+    background-position: 50% center;
+}
+main>.vegetable{
+    height: 660px;
+}
+main>.vegetable>article{
+    padding: 60px 0px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+main>.vegetable ul{
+    width: 100%;
+    height: 312px;
+    overflow: hidden;
+}
+main>.vegetable ul>li{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+main>.premium{
+    height: 200px;
+    background-image: url(../img/premium_bg.png);
+    background-size: cover;
+    background-position: 50% center;
+}
+main>.seafood{
+    height: 660px;
+}
+main>.seafood>article{
+    padding: 60px 0px 40px;
+    box-sizing: border-box;
+    text-align: center;
+}
+main>.seafood ul{
+    width: 100%;
+    height: 312px;
+
+    overflow: hidden;
+}
+main>.seafood ul>li{
+    float: left;
+    width: 25%;
+    height: 100%;
+
+}
+main>section>article{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
+main>section>article>div{}
+main>section>article>ul{}
+main>section>article>ul>li{}
+
+footer{
+    width: 100%;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+footer>div{
+    width: 100%;
+    
+}
+footer>div:nth-child(1){
+    height: 50px;
+    background-color: #626262;
+}
+footer>div:nth-child(2){
+    height: 156px;
+    background-color: #434343;
+}
+footer>div>div{
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto;
+}
